@@ -11,8 +11,8 @@ Each project covers essential system administration topics such as network confi
 1. [Basic Network Setup with VLANs and Static Routing](Project_0_Basic_Network_Setup)  
    A two-site network topology featuring Cisco routers, switches, and end devices. Includes VLAN configuration, router subinterfaces, static routing, and inter-VLAN communication between multiple subnets across areas.
 
-2. [User and Permission Management on Linux](./project2-linux-users-permissions)  
-   Creating users and groups, managing file permissions, and applying basic security policies on a Linux system.
+2. [Project 1 – VLAN Trunking Protocol (VTP) and Router-on-a-Stick (ROAS) Setup](./Project_1_Layer_2_Switching_and_VLANs)  
+   A Layer 2 network configuration featuring a centralized VTP server, two VTP clients, and a router using subinterfaces for inter-VLAN routing. Includes VLAN propagation, trunk links, and PC assignments across multiple VLANs.
 
 3. [Automated Backup Scripts](./project3-backup-scripts)  
    Bash scripts for scheduled backups of files and directories, including automatic logging and error handling.
