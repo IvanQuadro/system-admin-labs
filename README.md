@@ -8,8 +8,8 @@ Each project covers essential system administration topics such as network confi
 
 ## 📁 Included Projects
 
-1. [Basic LAN Configuration](./project1-basic-lan-setup)  
-   Simulation of a local area network setup using Cisco switches and routers, static IP addressing, and basic routing.
+1. [Basic Network Setup with VLANs and Static Routing](Project_0_Basic_Network_Setup)  
+   A two-site network topology featuring Cisco routers, switches, and end devices. Includes VLAN configuration, router subinterfaces, static routing, and inter-VLAN communication between multiple subnets across areas.
 
 2. [User and Permission Management on Linux](./project2-linux-users-permissions)  
    Creating users and groups, managing file permissions, and applying basic security policies on a Linux system.
