@@ -1,6 +1,6 @@
 # System Administration Lab Projects
 
-I'm an entry-level IT professional with a background in languages and a strong focus on system administration, networking, and cybersecurity.  
+Hi! I'm an entry-level IT professional with a background in languages and a strong focus on system administration, networking, and cybersecurity.  
 
 This repository contains six practical projects developed during my preparation for the CCNA 200-301 certification, designed to build job-ready skills and demonstrate my hands-on experience with real-world IT scenarios.
 
