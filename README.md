@@ -1,8 +1,10 @@
 # System Administration Lab Projects
 
-Welcome to my repository of hands-on projects focused on system administration. This collection includes six practical exercises developed during my training for the CCNA certification and as preparation for entering the IT job market.
+Hi! I'm an aspiring system administrator transitioning into the IT field with a focus on networking and cybersecurity.  
 
-Each project is designed to simulate real-world scenarios a system administrator might encounter, with the goal of reinforcing technical skills in networking, scripting, automation, and operating system management.
+This repository contains six practical projects developed during my preparation for the CCNA 200-301 certification, designed to build job-ready skills and demonstrate my hands-on experience with real-world IT scenarios.
+
+Each project covers essential system administration topics such as network configuration, Linux permissions, automation with Bash scripting, DHCP setup, monitoring tools, and VLAN segmentation. All projects are organized in separate directories and include detailed documentation.
 
 ## 📁 Included Projects
 
