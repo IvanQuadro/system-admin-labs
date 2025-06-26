@@ -4,7 +4,14 @@
 
 This repository contains the configuration and documentation for a network topology project focused on VLAN Trunking Protocol (VTP) with Router on a Stick (ROAS). The setup includes a VTP server (Switch SW2), two VTP clients (Switches SW1 and SW3), and a router (R1) configured for ROAS to handle inter-VLAN routing. Multiple PCs are distributed across different VLANs, managed centrally via VTP. Ideal for learning VTP, ROAS, and VLAN management.
 
-## Topology
+---
+
+## 🧭 Topology
+
+![Network Topology](Topology.png)
+
+---
+
 - **R1 (Router, Green):**
   - Central router for inter-VLAN routing
   - `F0/5`: Trunk to R1
