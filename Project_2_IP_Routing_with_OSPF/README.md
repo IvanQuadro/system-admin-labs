@@ -9,7 +9,7 @@ This lab demonstrates IP routing in a mixed network environment using both **Sta
 
 ## 🧭 Topology
 
-![Network Topology](./topology.png)
+![Network Topology](Topology.png)
 
 ---
 
