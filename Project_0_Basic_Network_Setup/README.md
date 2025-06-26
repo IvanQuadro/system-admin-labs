@@ -6,7 +6,11 @@ Ideal for students and junior system administrators preparing for the **CCNA cer
 
 ---
 
-## 📌 Topology Overview
+## 🧭 Topology
+
+![Network Topology](Topology.png)
+
+---
 
 
 - **AREA1 (Router R0):**
