@@ -8,22 +8,22 @@ Each project covers essential system administration topics such as network confi
 
 ## 📁 Included Projects
 
-1. [Basic Network Setup with VLANs and Static Routing](Project_0_Basic_Network_Setup)  
+0. [Basic Network Setup with VLANs and Static Routing](Project_0_Basic_Network_Setup)  
    A two-site network topology featuring Cisco routers, switches, and end devices. Includes VLAN configuration, router subinterfaces, static routing, and inter-VLAN communication between multiple subnets across areas.
 
-2. [Project 1 – VLAN Trunking Protocol (VTP) and Router-on-a-Stick (ROAS) Setup](./Project_1_Layer_2_Switching_and_VLANs)  
+1. [Project 1 – VLAN Trunking Protocol (VTP) and Router-on-a-Stick (ROAS) Setup](./Project_1_Layer_2_Switching_and_VLANs)  
    A Layer 2 network configuration featuring a centralized VTP server, two VTP clients, and a router using subinterfaces for inter-VLAN routing. Includes VLAN propagation, trunk links, and PC assignments across multiple VLANs.
 
-3. [Automated Backup Scripts](./project3-backup-scripts)  
-   Bash scripts for scheduled backups of files and directories, including automatic logging and error handling.
+2. [IP Routing with OSPF and Static Routes](./project2-ip-routing-ospf)  
+   Network simulation using static routes and OSPF to demonstrate manual and dynamic IP routing across multiple routers and segments.
 
-4. [DHCP Server Installation and Configuration](./project4-dhcp-server-setup)  
+3. [DHCP Server Installation and Configuration](./project4-dhcp-server-setup)  
    Setting up a DHCP server in a virtual network, with dynamic IP assignment and subnet configuration.
 
-5. [Monitoring with Open-Source Tools](./project5-network-monitoring)  
+4. [Monitoring with Open-Source Tools](./project5-network-monitoring)  
    Using tools like Nagios and Netdata to monitor system performance, network status, and running services.
 
-6. [Enterprise Network Simulation with VLANs](./project6-enterprise-multivlan)  
+5. [Enterprise Network Simulation with VLANs](./project6-enterprise-multivlan)  
    Design and implementation of a corporate network using multiple VLANs, trunking, and inter-VLAN routing on Cisco devices.
 
 ---
