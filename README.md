@@ -14,7 +14,7 @@ Each project covers essential system administration topics such as network confi
 1. [Project 1 – VLAN Trunking Protocol (VTP) and Router-on-a-Stick (ROAS) Setup](./Project_1_Layer_2_Switching_and_VLANs)  
    A Layer 2 network configuration featuring a centralized VTP server, two VTP clients, and a router using subinterfaces for inter-VLAN routing. Includes VLAN propagation, trunk links, and PC assignments across multiple VLANs.
 
-2. [IP Routing with OSPF and Static Routes](./project2-ip-routing-ospf)  
+2. [IP Routing with OSPF and Static Routes](./Project_2_IP_Routing_with_OSPF)  
    Network simulation using static routes and OSPF to demonstrate manual and dynamic IP routing across multiple routers and segments.
 
 3. [DHCP Server Installation and Configuration](./project4-dhcp-server-setup)  
