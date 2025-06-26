@@ -6,8 +6,11 @@ This lab focuses on implementing centralized **event logging** and **time synchr
 
 ---
 
-## 🖥️ Topology
+## 🧭 Topology
 
+![Network Topology](Topology.png)
+
+---
 
 [Router2] ←→ [Switch2] ←→ [Server0]
 G0/0 Fa0/1 Fa0/2 (Switch)
