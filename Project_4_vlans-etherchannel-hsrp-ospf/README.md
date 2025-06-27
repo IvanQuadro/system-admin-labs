@@ -19,6 +19,9 @@ Router-on-a-stick interconnection and OSPF dynamic routing
 
 ## 🧭 Topology
 
+![Network Topology](Topology1.png)
+![Network Topology](Topology2.png)
+![Network Topology](Topology3.png)
 
 ```bash
 
