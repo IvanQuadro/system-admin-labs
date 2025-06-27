@@ -3,19 +3,14 @@
 
 ## 📋 Overview
 
-This project demonstrates how to build a resilient, scalable enterprise network using Cisco multilayer switches and routers. Key features include:
+### This project demonstrates how to build a resilient, scalable enterprise network using Cisco multilayer switches and routers. Key features include:
 
-VLAN segmentation (Engineering, HR, Finance, Admin)
-
-VTP domain for VLAN propagation
-
-EtherChannel between distribution switches for redundancy and bandwidth
-
-HSRP for gateway redundancy
-
-Inter-VLAN routing via SVIs on multilayer switches
-
-Router-on-a-stick interconnection and OSPF dynamic routing
+- VLAN segmentation (Engineering, HR, Finance, Admin)
+- VTP domain for VLAN propagation
+- EtherChannel between distribution switches for redundancy and bandwidth
+- HSRP for gateway redundancy
+- Inter-VLAN routing via SVIs on multilayer switches
+- Router-on-a-stick interconnection and OSPF dynamic routing
 
 ## 🧭 Topology
 
