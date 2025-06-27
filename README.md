@@ -17,11 +17,11 @@ Each project covers essential system administration topics such as network confi
 3. [Project_3 IP Routing with OSPF and Static Routes](./Project_3_IP_Routing_with_OSPF)  
    Network simulation using static routes and OSPF to demonstrate manual and dynamic IP routing across multiple routers and segments.
 
-4. [Project_4_vlans-etherchannel-hsrp-ospf](./Project_4_vlans-etherchannel-hsrp-ospf)  
-   Configurazione avanzata di VLAN, EtherChannel, HSRP e OSPF per una rete resiliente e segmentata. Include gestione delle VLAN, aggregazione di link, ridondanza e routing dinamico.
+4. [Project_4 Syslog and NTP Configuration](./Project_4_Syslog_NTP)  
+   Centralized event logging and network time synchronization using Syslog and NTP protocols in a small subnet topology.
 
-5. [Monitoring with Open-Source Tools](./project5-network-monitoring)  
-   Using tools like Nagios and Netdata to monitor system performance, network status, and running services.
+5. [Project_4_vlans-etherchannel-hsrp-ospf](./Project_4_vlans-etherchannel-hsrp-ospf)  
+   Advanced configuration of VLANs, EtherChannel, HSRP, and OSPF for a resilient and segmented network. Includes VLAN management, link aggregation, redundancy, and dynamic routing.
 
 6. [Enterprise Network Simulation with VLANs](./project6-enterprise-multivlan)  
    Design and implementation of a corporate network using multiple VLANs, trunking, and inter-VLAN routing on Cisco devices.
