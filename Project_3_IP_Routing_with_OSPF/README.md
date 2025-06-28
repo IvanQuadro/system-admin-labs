@@ -1,4 +1,4 @@
-# Project 2 – IP Routing with OSPF and Static Routes
+# Project 3 – IP Routing with OSPF and Static Routes
 
 This lab demonstrates IP routing in a mixed network environment using both **Static Routing** and **OSPF (Open Shortest Path First)** dynamic routing. The network is divided into two main segments:
 
