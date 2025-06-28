@@ -1,4 +1,4 @@
-# VTP Network Configuration Project
+# Project 2 - VTP Network Configuration
 
 ## Overview
 
