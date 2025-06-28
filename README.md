@@ -17,7 +17,7 @@ Each project covers essential system administration topics such as network confi
 3. [Project_3 IP Routing with OSPF and Static Routes](./Project_3_IP_Routing_with_OSPF)  
    Network simulation using static routes and OSPF to demonstrate manual and dynamic IP routing across multiple routers and segments.
 
-4. [Project_4 Syslog and NTP Configuration](./Project_3_Syslog_NTP)  
+4. [Project_4 Syslog and NTP Configuration](./Project_4_Syslog_NTP)  
    Centralized event logging and network time synchronization using Syslog and NTP protocols in a small subnet topology.
 
 5. [Project_4_vlans-etherchannel-hsrp-ospf](./Project_4_vlans-etherchannel-hsrp-ospf)  
