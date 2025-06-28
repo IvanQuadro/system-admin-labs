@@ -1,4 +1,4 @@
-# 📡 Project 3 – Syslog and NTP Configuration
+# 📡 Project 4 – Syslog and NTP Configuration
 
 ## 🧠 Overview
 
