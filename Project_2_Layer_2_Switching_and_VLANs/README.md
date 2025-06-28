@@ -1,4 +1,4 @@
-# VTP Network Configuration Project
+![image](https://github.com/user-attachments/assets/04758df5-51e9-4045-b3dd-6644fa5200f8)# VTP Network Configuration Project
 
 ## Overview
 
@@ -8,7 +8,7 @@ This repository contains the configuration and documentation for a network topol
 
 ## 🧭 Topology
 
-![Network Topology]()
+![Network Topology](.Topology)
 
 ---
 
