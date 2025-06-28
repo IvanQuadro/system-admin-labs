@@ -8,6 +8,10 @@ Each VLAN is assigned its own IP range, gateway, and DHCP pool.
 
 ## Topology Overview
 
+![Network Topology](Topology1.png)
+![Network Topology](Topology2.png)
+
+
 Devices:
 - 🖧 Router0
 - 🖧 Switch0
