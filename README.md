@@ -23,7 +23,8 @@ Each project covers essential system administration topics such as network confi
 5. [Project 5 – DHCP, VLANs and Router-on-a-Stick](./Project_5_dhcp) 
   Network segmentation using VLANs with a centralized DHCP server and inter-VLAN routing via Router-on-a-Stick. Demonstrates dynamic IP assignment, subinterface configuration, and trunking for efficient Layer 3 communication.
 
-5.1. [Project 5.1 – DHCP, VLANs and Router-on-a-Stick](./Project_5.1_dhcp) 
+5.1. [Project 5 – DHCP, VLANs and Router-on-a-Stick](./Project_5.1_dhcp)
+
 
 6. [Project_6_vlans-etherchannel-hsrp-ospf](Project_6_vlans-etherchannel-hsrp-ospf)  
    Advanced configuration of VLANs, EtherChannel, HSRP, and OSPF for a resilient and segmented network. Includes VLAN management, link aggregation, redundancy, and dynamic routing.
