@@ -1,4 +1,4 @@
-# Project 0 – Basic Network Setup
+# Project 1 – Basic Network Setup
 
 This project simulates a small enterprise network consisting of two separate areas (AREA1 and AREA2), interconnected via static routes on Cisco routers. Each area includes VLANs, switches, and end devices, offering a hands-on exercise in network segmentation, inter-VLAN routing, and static route configuration.
 
