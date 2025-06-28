@@ -1,4 +1,4 @@
-# Project 5 – DHCP, VLANs and Router-on-a-Stick
+# Project 5.1 – DHCP, VLANs and Router-on-a-Stick
 
 ## Description
 
