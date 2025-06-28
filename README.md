@@ -23,7 +23,7 @@ Each project covers essential system administration topics such as network confi
 5. [Project_6_vlans-etherchannel-hsrp-ospf](./Project_4_vlans-etherchannel-hsrp-ospf)  
    Advanced configuration of VLANs, EtherChannel, HSRP, and OSPF for a resilient and segmented network. Includes VLAN management, link aggregation, redundancy, and dynamic routing.
 
-6. [Project_6_vlans-etherchannel-hsrp-ospf](./Project_4_vlans-etherchannel-hsrp-ospf)  
+6. [Project_6_vlans-etherchannel-hsrp-ospf](Project_6_vlans-etherchannel-hsrp-ospf)  
    Advanced configuration of VLANs, EtherChannel, HSRP, and OSPF for a resilient and segmented network. Includes VLAN management, link aggregation, redundancy, and dynamic routing.
 
 
