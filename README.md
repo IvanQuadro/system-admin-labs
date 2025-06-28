@@ -20,8 +20,10 @@ Each project covers essential system administration topics such as network confi
 4. [Project_4 Syslog and NTP Configuration](./Project_4_Syslog_NTP)  
    Centralized event logging and network time synchronization using Syslog and NTP protocols in a small subnet topology.
 
-5. [Project_6_vlans-etherchannel-hsrp-ospf](./Project_5_dhcp) 
-   Advanced configuration of VLANs, EtherChannel, HSRP, and OSPF for a resilient and segmented network. Includes VLAN management, link aggregation, redundancy, and dynamic routing.
+5. [Project 5 – DHCP, VLANs and Router-on-a-Stick](./Project_5_dhcp) 
+  Network segmentation using VLANs with a centralized DHCP server and inter-VLAN routing via Router-on-a-Stick. Demonstrates dynamic IP assignment, subinterface configuration, and trunking for efficient Layer 3 communication.
+
+5.1. [Project 5.1 – DHCP, VLANs and Router-on-a-Stick](./Project_6_dhcp) 
 
 6. [Project_6_vlans-etherchannel-hsrp-ospf](Project_6_vlans-etherchannel-hsrp-ospf)  
    Advanced configuration of VLANs, EtherChannel, HSRP, and OSPF for a resilient and segmented network. Includes VLAN management, link aggregation, redundancy, and dynamic routing.
