@@ -1,4 +1,4 @@
-# Project: Cisco Multilayer Switch Network with VTP, EtherChannel, HSRP, OSPF, and Inter-VLAN Routing
+# Project - 6 Cisco Multilayer Switch Network with VTP, EtherChannel, HSRP, OSPF, and Inter-VLAN Routing
 
 
 ## 📋 Overview
