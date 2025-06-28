@@ -76,7 +76,7 @@ The network is segmented into four VLANs, each with its own subnet, gateway, and
 ### Router0
 - **G0/0**: `12.1.1.2` (connected to Switch MS1)
 - **G0/1**: `13.1.1.2` (connected to Switch MS2)
-- **Ethernet0/0**: `0.0.0.0/0` (external interface, not fully detailed)
+- **Ethernet0/0**: `0.0.0.0/0` (external interface, Static route)
 
 ### Switch MS1 (Master)
 - **FastEthernet0/6**: `12.1.1.1` (connected to Router0 G0/0)
@@ -150,6 +150,8 @@ router ospf 1
  network 13.1.1.0 0.0.0.255 area 0
 exit
 copy run start
+
+ip route 0.0.0.0 0.0.0.0 1.1.1.2 
 
 ```
 
