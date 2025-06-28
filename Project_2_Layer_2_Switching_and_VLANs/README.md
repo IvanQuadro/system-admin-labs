@@ -8,7 +8,7 @@ This repository contains the configuration and documentation for a network topol
 
 ## 🧭 Topology
 
-![Network Topology](.Topology)
+![Network Topology](Topology.png)
 
 ---
 
