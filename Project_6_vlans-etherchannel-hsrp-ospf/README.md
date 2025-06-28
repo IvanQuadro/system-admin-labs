@@ -8,6 +8,7 @@ This project implements a segmented network using VLANs (10, 20, 30, and 40) wit
 
 ![Network Topology](Topology1.png)
 ![Network Topology](Topology2.png)
+![Network Topology](Topology3.png)
 
 
 ### Devices
