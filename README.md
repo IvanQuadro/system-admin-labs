@@ -21,14 +21,20 @@ Each project covers essential system administration topics such as network confi
    Centralized event logging and network time synchronization using Syslog and NTP protocols in a small subnet topology.
 
 5. [Project 5 – DHCP, VLANs and Router-on-a-Stick](./Project_5_dhcp)
+   
    Network segmentation using VLANs with a centralized DHCP server and inter-VLAN routing via Router-on-a-Stick. Demonstrates dynamic IP assignment, subinterface configuration, and trunking for efficient Layer 3 communication.
 
 5.1. [Project 5.1 – DHCP, VLANs and Router-on-a-Stick](./Project_5.1_dhcp)
-     Segmented network utilizing VLANs 10 and 20, with a centralized DHCP server. Router performs inter-VLAN routing using subinterfaces (Router-on-a-Stick). Each VLAN is assigned its own IP range, gateway, and DHCP pool. The network includes IP helper addresses to relay DHCP requests across VLANs.
+
+   Segmented network utilizing VLANs 10 and 20, with a centralized DHCP server. Router performs inter-VLAN routing using subinterfaces (Router-on-a-Stick). Each       VLAN is assigned its own IP range, gateway, and DHCP pool. The network includes IP helper addresses to relay DHCP requests across VLANs.
    
 
 6. [Project_6_vlans-etherchannel-hsrp-ospf](Project_6_vlans-etherchannel-hsrp-ospf)  
    Advanced configuration of VLANs, EtherChannel, HSRP, and OSPF for a resilient and segmented network. Includes VLAN management, link aggregation, redundancy, and dynamic routing.
+
+7. [Project 7 – Hierarchical Network Design with Redundancy](Project_7_dhcp_vtp_portsecurity)
+   
+   Three-tier Cisco network architecture implementing Core, Distribution, and Access layers. Demonstrates scalable and redundant design using multilayer switches, multiple uplinks, and structured segmentation. Ideal for enterprise-level networks requiring high availability, fault tolerance, and efficient traffic management.
 
 
 ---
