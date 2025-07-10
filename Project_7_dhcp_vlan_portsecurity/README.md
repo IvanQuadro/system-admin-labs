@@ -6,6 +6,10 @@ This project represents a **Cisco three-tier hierarchical network topology** des
 
 The goal is to demonstrate how to build a **scalable**, **redundant**, and **segmented** network architecture using multilayer switches, routers, and end devices.
 
+## Topology Overview
+
+![Network Topology](Topology.png)
+
 The topology includes:
 
 - A structured three-layer design
