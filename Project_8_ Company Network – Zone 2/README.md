@@ -32,7 +32,7 @@ It includes **multiple VLANs**, **Router-on-a-Stick (ROAS)** configuration, a **
 
 
 ---
-
+<a id="vlans-and-subnetting"></a>
 ## 🔹 VLANs and Subnetting
 
 | VLAN  | Purpose         | Subnet               | Gateway (Router Subinterface) |
