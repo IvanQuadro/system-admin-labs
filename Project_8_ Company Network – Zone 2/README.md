@@ -1,4 +1,4 @@
-# 🖧 Company Network – Zone 2 (Packet Tracer Lab)
+# 🖧 Company Network – Zone 2  
 
 This lab simulates **Zone 2** of a company network using Cisco Packet Tracer.  
 It includes **multiple VLANs**, **Router-on-a-Stick (ROAS)** configuration, a **central DHCP server**, **ACLs for inter-VLAN traffic control**, **static routing**, and **OSPF for dynamic routing** between the site and the ISP.  
