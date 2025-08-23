@@ -5,11 +5,11 @@ It includes **multiple VLANs**, **Router-on-a-Stick (ROAS)** configuration, a **
 
 ---
 
-## Topology Overview
+## Topology Diagram
 
 ![Network Topology](Topology.png)
 
-## 🔹 Topology Overview
+## Topology Overview
 
 - **Router R2**: Performs inter-VLAN routing and connects to the ISP.  
 - **Switch SW1**: Manages VLANs and trunking to the router.  
@@ -20,6 +20,7 @@ It includes **multiple VLANs**, **Router-on-a-Stick (ROAS)** configuration, a **
 ---
 
 ## 📑 Index
+- [Topology Diagram](#topology-diagram)
 - [Topology Overview](#topology-overview)
 - [VLANs and Subnetting](#vlans-and-subnetting)
 - [Router R2 Configuration](#router-r2-configuration-roas--routing)
@@ -28,6 +29,7 @@ It includes **multiple VLANs**, **Router-on-a-Stick (ROAS)** configuration, a **
 - [Access Control Lists](#acls-to-isolate-vlans)
 - [OSPF Setup](#ospf-configuration-on-router-r2)
 - [Summary](#summary)
+
 
 ---
 
