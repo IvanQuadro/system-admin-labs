@@ -127,7 +127,8 @@ interface f0/8
  switchport mode trunk
 ```
 <a id="dhcp-server-setup"></a>
-🔹 DHCP Server Setup (On Server S1)
+
+🔹 DHCP Server Setup
 
 For each VLAN, create a pool in the DHCP service:
 
