@@ -44,7 +44,7 @@ It includes **multiple VLANs**, **Router-on-a-Stick (ROAS)** configuration, a **
 | VLAN10| Servers         | 192.168.1.96/28     | 192.168.1.97                |
 
 ---
-
+<a id="router-r2-configuration"></a>
 ## 🔹 Router R2 Configuration (ROAS + Routing)
 
 ```bash
@@ -126,7 +126,7 @@ interface f0/8
  switchport trunk encapsulation dot1q
  switchport mode trunk
 ```
-
+<a id="dhcp-setup"></a>
 🔹 DHCP Server Setup (On Server S1)
 
 For each VLAN, create a pool in the DHCP service:
@@ -150,7 +150,7 @@ interface g0/0.5
 interface g0/0.6
  ip helper-address 192.168.1.82
 ```
-
+<a id="acls"></a>
 🔹 ACLs to Isolate VLANs
 
 ```bash
@@ -166,7 +166,7 @@ interface g0/0.2
  ip access-group IN-VLAN2 in
 ```
 Similar ACLs were applied for VLAN3, VLAN5, and VLAN6
-
+<a id="ospf-setup"></a>
 🔹 OSPF Configuration (on Router R2)
 
 ```bash
@@ -179,7 +179,7 @@ router ospf 1
  network 192.168.1.64 0.0.0.15 area 0
  network 192.168.1.96 0.0.0.15 area 0
 ```
-
+<a id="summary"></a>
 🔹 Summary
 
 ✅ Multiple VLANs with subnetting
