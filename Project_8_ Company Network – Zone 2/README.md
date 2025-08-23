@@ -18,20 +18,6 @@ It includes **multiple VLANs**, **Router-on-a-Stick (ROAS)** configuration, a **
 - **ISP Router**: Simulates external connectivity.  
 
 ---
-
-## 📑 Index
-- [Topology Diagram](#topology-diagram)
-- [Topology Overview](#topology-overview)
-- [VLANs and Subnetting](#vlans-and-subnetting)
-- [Router R2 Configuration](#router-r2-configuration-roas--routing)
-- [Switch Configuration](#switch-configuration)
-- [DHCP Setup](#dhcp-server-setup-on-server-s1)
-- [Access Control Lists](#acls-to-isolate-vlans)
-- [OSPF Setup](#ospf-configuration-on-router-r2)
-- [Summary](#summary)
-
-
----
 <a id="vlans-and-subnetting"></a>
 ## 🔹 VLANs and Subnetting
 
