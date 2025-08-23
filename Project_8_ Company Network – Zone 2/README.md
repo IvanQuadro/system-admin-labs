@@ -1,4 +1,4 @@
-# 🖧 Company Network – Zone 2  
+# 🖧 Company Network – Zone 2  (VLANs, ROAS, DHCP, ACL, OSPF)
 
 This lab simulates **Zone 2** of a company network using Cisco Packet Tracer.  
 It includes **multiple VLANs**, **Router-on-a-Stick (ROAS)** configuration, a **central DHCP server**, **ACLs for inter-VLAN traffic control**, **static routing**, and **OSPF for dynamic routing** between the site and the ISP.  
@@ -18,6 +18,17 @@ It includes **multiple VLANs**, **Router-on-a-Stick (ROAS)** configuration, a **
 - **ISP Router**: Simulates external connectivity.  
 
 ---
+
+## 📑 Index
+- [Topology Overview](#topology-overview)
+- [VLANs and Subnetting](#vlan-and-subnetting)
+- [Router R2 Configuration](#router-r2-configuration-roas--routing)
+- [Switch Configuration](#switch-configuration)
+- [DHCP Setup](#dhcp-server-setup-on-server-s1)
+- [Access Control Lists](#acls-to-isolate-vlans)
+- [OSPF Setup](#ospf-configuration-on-router-r2)
+- [Summary](#summary)
+
 
 ## 🔹 VLANs and Subnetting
 
