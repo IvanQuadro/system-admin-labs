@@ -5,6 +5,10 @@ It includes **multiple VLANs**, **Router-on-a-Stick (ROAS)** configuration, a **
 
 ---
 
+## Topology Overview
+
+![Network Topology](Topology.png)
+
 ## 🔹 Topology Overview
 
 - **Router R2**: Performs inter-VLAN routing and connects to the ISP.  
