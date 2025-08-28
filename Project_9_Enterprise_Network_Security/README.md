@@ -6,6 +6,12 @@ The goal is to enforce a **Zero Trust** model, protect against common Layer 2/3 
 
 ---
 
+## 🧭 Topology
+
+![Network Topology](Topology.png)
+
+---
+
 ## 📋 Table of Contents
 * [1. VLAN Segmentation & Inter-VLAN ACLs (Zero Trust)](#1-vlan-segmentation--inter-vlan-acls-zero-trust)
 * [2. DHCP Snooping](#2-dhcp-snooping)
