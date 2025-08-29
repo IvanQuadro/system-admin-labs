@@ -37,10 +37,9 @@ The goal is to enforce a **Zero Trust** model, protect against common Layer 2/3 
    deny ip 10.1.1.0 0.0.0.255 40.1.1.0 0.0.0.255
    permit ip any any
 
-bash
-
-interface vlan10
- ip access-group VLAN10_IN in
+  interface vlan10
+   ip access-group VLAN10_IN in
+  ```
 
 Outcome:Prevents direct communication between VLANs (e.g., VLAN10 cannot reach VLAN20, VLAN30, or VLAN40).
 Only explicitly permitted traffic (e.g., Internet-bound) is allowed.
@@ -49,16 +48,16 @@ Only explicitly permitted traffic (e.g., Internet-bound) is allowed.
 Configuration:Enabled on all switches for VLANs 10, 20, 30, and 40.
 Only uplink/trunk interfaces to trusted devices (e.g., MS1, MS2, Core) are marked as trusted.
 
-bash
+```bash
 
 ip dhcp snooping
 ip dhcp snooping vlan 10,20,30,40
-
-bash
+```
+```bash
 
 interface fa0/5
  ip dhcp snooping trust
-
+```
 Outcome:Ensures DHCP replies are only accepted from trusted ports.
 Mitigates unauthorized DHCP server attacks.
 
@@ -66,20 +65,20 @@ Mitigates unauthorized DHCP server attacks.
 Configuration:Enabled for VLANs 10, 20, 30, and 40.
 Trusted ports explicitly defined; access ports remain untrusted by default.
 
-bash
+```bash
 
 ip arp inspection vlan 10,20,30,40
-
-bash
+```
+```bash
 
 interface fa0/1
  ip arp inspection limit rate 30
-
-bash
+```
+```bash
 
 interface fa0/5
  ip arp inspection trust
-
+```
 Outcome:Validates ARP packets against the DHCP Snooping binding table.
 Protects against ARP poisoning attacks.
 
@@ -87,7 +86,7 @@ Protects against ARP poisoning attacks.
 Configuration:Applied on all access ports with a maximum of 2 MAC addresses.
 Uses sticky MAC learning and restricts violations.
 
-bash
+```bash
 
 interface range fa0/1 - 24
  switchport mode access
@@ -95,7 +94,7 @@ interface range fa0/1 - 24
  switchport port-security maximum 2
  switchport port-security violation restrict
  switchport port-security mac-address sticky
-
+```
 Outcome:Limits MAC addresses per port to 2.
 Restricts unknown MAC addresses.
 Dynamically learns and saves MAC addresses in the running configuration.
@@ -103,37 +102,37 @@ Dynamically learns and saves MAC addresses in the running configuration.
 * 5. BPDU Guard & STP PortFastPurpose: Protect Spanning Tree Protocol (STP) topology and speed up host port convergence.
 Configuration:Enabled on all access ports.
 
-bash
+```bash
 
 interface range fa0/1 - 24
  spanning-tree bpduguard enable
  spanning-tree portfast
-
+```
 Outcome:Prevents unauthorized switches from participating in STP.
 Reduces convergence time for host ports.
 
 * 6. Storm ControlPurpose: Mitigate broadcast and multicast storms to ensure network stability.
 Configuration:Applied on all access ports to limit broadcast and multicast traffic to 5% of bandwidth.
 
-bash
+```bash
 
 interface range fa0/1 - 24
  storm-control broadcast level 5.00
  storm-control multicast level 5.00
-
+```
 Outcome:Drops excessive broadcast/multicast traffic.
 Protects against Layer 2 broadcast storms.
 
 * 7. Trusted Uplink PortsPurpose: Ensure proper functionality of control plane protocols on trunk/uplink ports.
 Configuration:Trunk ports to distribution switches/routers are marked as trusted for DHCP Snooping and ARP Inspection.
 
-bash
+```bash
 
 interface fa0/24
  switchport mode trunk
  ip dhcp snooping trust
  ip arp inspection trust
-
+```
 Outcome:Prevents false positives on inter-switch or uplink connections.
 Ensures seamless operation of control plane protocols.
 
