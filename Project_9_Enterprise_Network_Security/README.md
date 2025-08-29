@@ -136,28 +136,14 @@ interface fa0/24
 Outcome:Prevents false positives on inter-switch or uplink connections.
 Ensures seamless operation of control plane protocols.
 
-* 8. Summary of Security FeaturesFeature
-Layer
-Purpose
-Inter-VLAN ACLs
-L3
-Enforce Zero Trust segmentation
-DHCP Snooping
-L2
-Prevent rogue DHCP servers
-Dynamic ARP Inspection
-L2
-Prevent ARP spoofing
-Port Security
-L2
-Limit devices per port
-BPDU Guard + PortFast
-L2
-Protect STP topology, speed up convergence
-Storm Control
-L2
-Mitigate broadcast/multicast storms
-Trusted Uplink Ports
-L2/L3
-Ensure correct functionality on trunks
+## * 8. Summary of Security Features
 
+| **Feature**              | **Layer** | **Device Type**           | **Purpose**                          |
+|--------------------------|-----------|---------------------------|--------------------------------------|
+| Inter-VLAN ACLs          | L3        | Distribution / Core       | Zero Trust segmentation              |
+| DHCP Snooping            | L2        | All Switches              | Block rogue DHCP servers             |
+| Dynamic ARP Inspection   | L2        | All Switches              | Prevent ARP spoofing attacks         |
+| Port Security            | L2        | Access Switches           | Limit devices per port               |
+| BPDU Guard + PortFast    | L2        | Access Switches           | Protect STP & speed convergence      |
+| Storm Control            | L2        | Access Switches           | Mitigate broadcast/multicast storms  |
+| Trusted Uplink Ports     | L2/L3     | Distribution / Core Links | Ensure correct uplink functionality  |
