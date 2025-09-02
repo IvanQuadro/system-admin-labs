@@ -52,8 +52,6 @@ Only uplink/trunk interfaces to trusted devices (e.g., MS1, MS2, Core) are marke
 
 ip dhcp snooping
 ip dhcp snooping vlan 10,20,30,40
-```
-```bash
 
 interface fa0/5
  ip dhcp snooping trust
